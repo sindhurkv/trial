@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_green_dark">
+
+        <Button
+            android:text="quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/button7"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:text="Small letters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alphaSmall"
+            android:layout_alignTop="@+id/idAlphachart"
+            android:layout_marginTop="60dp"
+            android:layout_alignLeft="@+id/idAlphachart"
+            android:layout_alignStart="@+id/idAlphachart"
+            android:layout_alignRight="@+id/idAlphachart"
+            android:layout_alignEnd="@+id/idAlphachart" />
+
+        <Button
+            android:text="Slide"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/idAlphaslide"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp" />
+
+        <Button
+            android:text="Capital Letters"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/idAlphachart"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/idAlphaslide"
+            android:layout_alignLeft="@+id/idAlphaslide"
+            android:layout_alignStart="@+id/idAlphaslide" />
+
+        <Button
+            android:text="Want to know more about alphabet?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idwiki"
+            android:layout_above="@+id/button7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp" />
+    </RelativeLayout>
+
+</LinearLayout>
